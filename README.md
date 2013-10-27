@@ -18,6 +18,7 @@ There are two ways to use QZXLSReader:
 - Change anything you want from the project.
 - Compile this project.
 - Fix any warnings that might come up (I had to do some dancing with the structs to make it work without exposing libxls).
+- Add libiconv.dylib to your project.
 
 Once you have the framework in your project and it's building correctly, you can start by calling:
 
