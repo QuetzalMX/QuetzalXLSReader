@@ -1,13 +1,7 @@
 QuetzalXLSReader
 ================
 
-XLS Parser by Quetzal is a library of classes which can make it very easy to extract information from an XLS file.
-
-Donations
----------
-
-We're making this software public because we think it's super useful in some cases. 
-If it is useful to you, donating to our Paypal would be deeply appreciated!
+QZXLSReader is a library that makes it very easy to extract information from an XLS file. It is a very simple library that is based off libxls and DHlibXLS. It may not be as complete as either, but it can get the job done in a very simple manner.
 
 How to use
 ----------
@@ -25,6 +19,19 @@ There are two ways to use QZXLSReader:
 - Compile this project.
 - Fix any warnings that might come up (I had to do some dancing with the structs to make it work without exposing libxls).
 
+Once you have the framework in your project and it's building correctly, you can start by calling:
+
+    QZWorkbook *excelReader = [[QZWorkbook alloc] initWithContentsOfXLS:xlsFileURL];
+
+This loads the workbook into memory. Now all you have to do is open any worksheet and start browsing the contents.
+
+```
+QZWorkSheet *firstWorkSheet = excelReader.workSheets.firstObject;
+[firstWorkSheet open];
+
+NSLog(@"%@", firstWorkSheet.rows.firstObject)
+
+```
 
 License
 -------
@@ -33,13 +40,18 @@ The license to use the framework is included in QZXLSReader.h; it's basically a 
 
 We don't discriminate software, so feel free to use it anywhere as long as you credit Quetzal (or Fernando Olivares) appropriately.
 
+Non-Attribution License
+---------
+
+If you want a non-attribution license, get in touch with us! The email is at the end of this readme.
+
 
 Conclusion
 ----------
 
-If you find this software lacking, feel free to fork it and send me a pull request.
+If you find this software lacking, feel free to fork it and send us a pull request.
 
-If you do make an app that uses it, let me know!
+If you do make an app that uses it, let us know!
 
 Quetzal is dedicated to making great iOS apps, so if you like our code, feel free to contact us! We do consulting work as a third party or we can build the app of your dreams!
 
