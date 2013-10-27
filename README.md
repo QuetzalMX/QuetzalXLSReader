@@ -30,8 +30,9 @@ QZWorkSheet *firstWorkSheet = excelReader.workSheets.firstObject;
 [firstWorkSheet open];
 
 NSLog(@"%@", firstWorkSheet.rows.firstObject)
-
 ```
+
+Once you're done, you can close either the worksheet you were working on or the whole workbook.
 
 License
 -------
