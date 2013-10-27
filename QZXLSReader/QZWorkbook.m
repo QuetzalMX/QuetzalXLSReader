@@ -79,6 +79,9 @@
 {
     //Frees the memory.
 	xls_close_WB(_workBook);
+    
+    for(QZWorkSheet *workSheet in self.workSheets)
+        [workSheet close];
 }
 
 - (NSString *)description;

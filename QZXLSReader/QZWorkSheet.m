@@ -96,6 +96,9 @@
 
 - (void)close;
 {
+    if(!self.isOpen || !_workSheet)
+        return;
+    
     xls_close_WS(_workSheet);
 }
 
