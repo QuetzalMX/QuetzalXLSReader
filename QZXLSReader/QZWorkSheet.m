@@ -94,6 +94,11 @@
     self.columns = [NSArray arrayWithArray:columns];
 }
 
+- (void)close;
+{
+    xls_close_WS(_workSheet);
+}
+
 - (QZCell *)cellAtPoint:(QZLocation)location;
 {
     if(!self.isOpen)

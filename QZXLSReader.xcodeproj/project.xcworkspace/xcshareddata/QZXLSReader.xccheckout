@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>096C471E-FBD1-4873-84CA-F9D234B78997</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QZXLSReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>230586F7-9C1F-4244-9C5F-B6D31E5AE0D0</key>
+		<string>https://github.com/QuetzalMX/QuetzalXLSReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QZXLSReader.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>230586F7-9C1F-4244-9C5F-B6D31E5AE0D0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/QuetzalMX/QuetzalXLSReader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>230586F7-9C1F-4244-9C5F-B6D31E5AE0D0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>230586F7-9C1F-4244-9C5F-B6D31E5AE0D0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuetzalXLSReader</string>
+		</dict>
+	</array>
+</dict>
+</plist>

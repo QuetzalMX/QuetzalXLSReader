@@ -23,6 +23,7 @@ typedef struct QZLocation QZLocation;
                  withIndex:(NSUInteger)sheetIndex;
 
 - (void)open;
+- (void)close;
 - (QZCell *)cellAtPoint:(QZLocation)location;
 
 @end

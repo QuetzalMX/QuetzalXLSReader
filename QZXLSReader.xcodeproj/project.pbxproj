@@ -15,22 +15,22 @@
 		C18AFB92181DB84B001EFF1B /* QZCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFB8B181DB84B001EFF1B /* QZCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C18AFB93181DB84B001EFF1B /* QZCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18AFB8C181DB84B001EFF1B /* QZCell.m */; };
 		C18AFB94181DB84B001EFF1B /* Licenses in Resources */ = {isa = PBXBuildFile; fileRef = C18AFB8D181DB84B001EFF1B /* Licenses */; };
-		C18AFB9A181DB868001EFF1B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFB99181DB868001EFF1B /* config.h */; };
-		C18AFB9F181DB870001EFF1B /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFB9B181DB870001EFF1B /* endian.c */; };
-		C18AFBA0181DB870001EFF1B /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFB9C181DB870001EFF1B /* ole.c */; };
-		C18AFBA1181DB870001EFF1B /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFB9D181DB870001EFF1B /* xls.c */; };
-		C18AFBA2181DB870001EFF1B /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFB9E181DB870001EFF1B /* xlstool.c */; };
-		C18AFBAB181DB879001EFF1B /* brdb.c.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA3181DB879001EFF1B /* brdb.c.h */; };
-		C18AFBAC181DB879001EFF1B /* brdb.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA4181DB879001EFF1B /* brdb.h */; };
-		C18AFBAD181DB879001EFF1B /* endian.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA5181DB879001EFF1B /* endian.h */; };
-		C18AFBAE181DB879001EFF1B /* ole.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA6181DB879001EFF1B /* ole.h */; };
-		C18AFBAF181DB879001EFF1B /* xls.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA7181DB879001EFF1B /* xls.h */; };
-		C18AFBB0181DB879001EFF1B /* xlsstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA8181DB879001EFF1B /* xlsstruct.h */; };
-		C18AFBB1181DB879001EFF1B /* xlstool.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBA9181DB879001EFF1B /* xlstool.h */; };
-		C18AFBB2181DB879001EFF1B /* xlstypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBAA181DB879001EFF1B /* xlstypes.h */; };
-		C18AFBB7181DB882001EFF1B /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18AFBB4181DB882001EFF1B /* XlsReader.cpp */; };
-		C18AFBB8181DB882001EFF1B /* XlsReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBB5181DB882001EFF1B /* XlsReader.h */; };
 		C18AFBBD181DB94E001EFF1B /* QZXLSReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBBB181DB94E001EFF1B /* QZXLSReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18AFBDD181DCB8B001EFF1B /* XlsReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C18AFBCC181DCB8B001EFF1B /* XlsReader.cpp */; };
+		C18AFBDE181DCB8B001EFF1B /* XlsReader.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBCD181DCB8B001EFF1B /* XlsReader.h */; };
+		C18AFBDF181DCB8B001EFF1B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBCE181DCB8B001EFF1B /* config.h */; };
+		C18AFBE0181DCB8B001EFF1B /* brdb.c.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD0181DCB8B001EFF1B /* brdb.c.h */; };
+		C18AFBE1181DCB8B001EFF1B /* brdb.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD1181DCB8B001EFF1B /* brdb.h */; };
+		C18AFBE2181DCB8B001EFF1B /* endian.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD2181DCB8B001EFF1B /* endian.h */; };
+		C18AFBE3181DCB8B001EFF1B /* ole.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD3181DCB8B001EFF1B /* ole.h */; };
+		C18AFBE4181DCB8B001EFF1B /* xls.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD4181DCB8B001EFF1B /* xls.h */; };
+		C18AFBE5181DCB8B001EFF1B /* xlsstruct.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD5181DCB8B001EFF1B /* xlsstruct.h */; };
+		C18AFBE6181DCB8B001EFF1B /* xlstool.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD6181DCB8B001EFF1B /* xlstool.h */; };
+		C18AFBE7181DCB8B001EFF1B /* xlstypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C18AFBD7181DCB8B001EFF1B /* xlstypes.h */; };
+		C18AFBE8181DCB8B001EFF1B /* endian.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFBD9181DCB8B001EFF1B /* endian.c */; };
+		C18AFBE9181DCB8B001EFF1B /* ole.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFBDA181DCB8B001EFF1B /* ole.c */; };
+		C18AFBEA181DCB8B001EFF1B /* xls.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFBDB181DCB8B001EFF1B /* xls.c */; };
+		C18AFBEB181DCB8B001EFF1B /* xlstool.c in Sources */ = {isa = PBXBuildFile; fileRef = C18AFBDC181DCB8B001EFF1B /* xlstool.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,22 +45,22 @@
 		C18AFB8B181DB84B001EFF1B /* QZCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZCell.h; sourceTree = "<group>"; };
 		C18AFB8C181DB84B001EFF1B /* QZCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZCell.m; sourceTree = "<group>"; };
 		C18AFB8D181DB84B001EFF1B /* Licenses */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Licenses; sourceTree = "<group>"; };
-		C18AFB99181DB868001EFF1B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		C18AFB9B181DB870001EFF1B /* endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = endian.c; sourceTree = "<group>"; };
-		C18AFB9C181DB870001EFF1B /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
-		C18AFB9D181DB870001EFF1B /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
-		C18AFB9E181DB870001EFF1B /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
-		C18AFBA3181DB879001EFF1B /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
-		C18AFBA4181DB879001EFF1B /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
-		C18AFBA5181DB879001EFF1B /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
-		C18AFBA6181DB879001EFF1B /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
-		C18AFBA7181DB879001EFF1B /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
-		C18AFBA8181DB879001EFF1B /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
-		C18AFBA9181DB879001EFF1B /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
-		C18AFBAA181DB879001EFF1B /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
-		C18AFBB4181DB882001EFF1B /* XlsReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
-		C18AFBB5181DB882001EFF1B /* XlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
 		C18AFBBB181DB94E001EFF1B /* QZXLSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZXLSReader.h; sourceTree = "<group>"; };
+		C18AFBCC181DCB8B001EFF1B /* XlsReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XlsReader.cpp; sourceTree = "<group>"; };
+		C18AFBCD181DCB8B001EFF1B /* XlsReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XlsReader.h; sourceTree = "<group>"; };
+		C18AFBCE181DCB8B001EFF1B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		C18AFBD0181DCB8B001EFF1B /* brdb.c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.c.h; sourceTree = "<group>"; };
+		C18AFBD1181DCB8B001EFF1B /* brdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brdb.h; sourceTree = "<group>"; };
+		C18AFBD2181DCB8B001EFF1B /* endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endian.h; sourceTree = "<group>"; };
+		C18AFBD3181DCB8B001EFF1B /* ole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ole.h; sourceTree = "<group>"; };
+		C18AFBD4181DCB8B001EFF1B /* xls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xls.h; sourceTree = "<group>"; };
+		C18AFBD5181DCB8B001EFF1B /* xlsstruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlsstruct.h; sourceTree = "<group>"; };
+		C18AFBD6181DCB8B001EFF1B /* xlstool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstool.h; sourceTree = "<group>"; };
+		C18AFBD7181DCB8B001EFF1B /* xlstypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xlstypes.h; sourceTree = "<group>"; };
+		C18AFBD9181DCB8B001EFF1B /* endian.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = endian.c; sourceTree = "<group>"; };
+		C18AFBDA181DCB8B001EFF1B /* ole.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ole.c; sourceTree = "<group>"; };
+		C18AFBDB181DCB8B001EFF1B /* xls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xls.c; sourceTree = "<group>"; };
+		C18AFBDC181DCB8B001EFF1B /* xlstool.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xlstool.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,6 @@
 				C18AFB8C181DB84B001EFF1B /* QZCell.m */,
 				C18AFB8D181DB84B001EFF1B /* Licenses */,
 				C18AFB79181DB83F001EFF1B /* Supporting Files */,
-				C18AFB95181DB84E001EFF1B /* libxls */,
 			);
 			path = QZXLSReader;
 			sourceTree = "<group>";
@@ -113,54 +112,55 @@
 				C18AFB7A181DB83F001EFF1B /* QZXLSReader-Info.plist */,
 				C18AFB7B181DB83F001EFF1B /* InfoPlist.strings */,
 				C18AFB7E181DB83F001EFF1B /* QZXLSReader-Prefix.pch */,
+				C18AFBCA181DCB8B001EFF1B /* libxls */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C18AFB95181DB84E001EFF1B /* libxls */ = {
+		C18AFBCA181DCB8B001EFF1B /* libxls */ = {
 			isa = PBXGroup;
 			children = (
-				C18AFB99181DB868001EFF1B /* config.h */,
-				C18AFB98181DB862001EFF1B /* include */,
-				C18AFB97181DB85D001EFF1B /* src */,
-				C18AFB96181DB859001EFF1B /* C++ */,
+				C18AFBCB181DCB8B001EFF1B /* C++ */,
+				C18AFBCE181DCB8B001EFF1B /* config.h */,
+				C18AFBCF181DCB8B001EFF1B /* include */,
+				C18AFBD8181DCB8B001EFF1B /* src */,
 			);
-			name = libxls;
+			path = libxls;
 			sourceTree = "<group>";
 		};
-		C18AFB96181DB859001EFF1B /* C++ */ = {
+		C18AFBCB181DCB8B001EFF1B /* C++ */ = {
 			isa = PBXGroup;
 			children = (
-				C18AFBB4181DB882001EFF1B /* XlsReader.cpp */,
-				C18AFBB5181DB882001EFF1B /* XlsReader.h */,
+				C18AFBCC181DCB8B001EFF1B /* XlsReader.cpp */,
+				C18AFBCD181DCB8B001EFF1B /* XlsReader.h */,
 			);
-			name = "C++";
+			path = "C++";
 			sourceTree = "<group>";
 		};
-		C18AFB97181DB85D001EFF1B /* src */ = {
+		C18AFBCF181DCB8B001EFF1B /* include */ = {
 			isa = PBXGroup;
 			children = (
-				C18AFB9B181DB870001EFF1B /* endian.c */,
-				C18AFB9C181DB870001EFF1B /* ole.c */,
-				C18AFB9D181DB870001EFF1B /* xls.c */,
-				C18AFB9E181DB870001EFF1B /* xlstool.c */,
+				C18AFBD0181DCB8B001EFF1B /* brdb.c.h */,
+				C18AFBD1181DCB8B001EFF1B /* brdb.h */,
+				C18AFBD2181DCB8B001EFF1B /* endian.h */,
+				C18AFBD3181DCB8B001EFF1B /* ole.h */,
+				C18AFBD4181DCB8B001EFF1B /* xls.h */,
+				C18AFBD5181DCB8B001EFF1B /* xlsstruct.h */,
+				C18AFBD6181DCB8B001EFF1B /* xlstool.h */,
+				C18AFBD7181DCB8B001EFF1B /* xlstypes.h */,
 			);
-			name = src;
+			path = include;
 			sourceTree = "<group>";
 		};
-		C18AFB98181DB862001EFF1B /* include */ = {
+		C18AFBD8181DCB8B001EFF1B /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C18AFBA3181DB879001EFF1B /* brdb.c.h */,
-				C18AFBA4181DB879001EFF1B /* brdb.h */,
-				C18AFBA5181DB879001EFF1B /* endian.h */,
-				C18AFBA6181DB879001EFF1B /* ole.h */,
-				C18AFBA7181DB879001EFF1B /* xls.h */,
-				C18AFBA8181DB879001EFF1B /* xlsstruct.h */,
-				C18AFBA9181DB879001EFF1B /* xlstool.h */,
-				C18AFBAA181DB879001EFF1B /* xlstypes.h */,
+				C18AFBD9181DCB8B001EFF1B /* endian.c */,
+				C18AFBDA181DCB8B001EFF1B /* ole.c */,
+				C18AFBDB181DCB8B001EFF1B /* xls.c */,
+				C18AFBDC181DCB8B001EFF1B /* xlstool.c */,
 			);
-			name = include;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,20 +170,20 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C18AFBE4181DCB8B001EFF1B /* xls.h in Headers */,
+				C18AFBE5181DCB8B001EFF1B /* xlsstruct.h in Headers */,
 				C18AFBBD181DB94E001EFF1B /* QZXLSReader.h in Headers */,
+				C18AFBE0181DCB8B001EFF1B /* brdb.c.h in Headers */,
+				C18AFBE7181DCB8B001EFF1B /* xlstypes.h in Headers */,
+				C18AFBE6181DCB8B001EFF1B /* xlstool.h in Headers */,
 				C18AFB90181DB84B001EFF1B /* QZWorkSheet.h in Headers */,
+				C18AFBDF181DCB8B001EFF1B /* config.h in Headers */,
+				C18AFBDE181DCB8B001EFF1B /* XlsReader.h in Headers */,
+				C18AFBE3181DCB8B001EFF1B /* ole.h in Headers */,
 				C18AFB92181DB84B001EFF1B /* QZCell.h in Headers */,
+				C18AFBE1181DCB8B001EFF1B /* brdb.h in Headers */,
 				C18AFB8E181DB84B001EFF1B /* QZWorkbook.h in Headers */,
-				C18AFBAF181DB879001EFF1B /* xls.h in Headers */,
-				C18AFBB8181DB882001EFF1B /* XlsReader.h in Headers */,
-				C18AFBAC181DB879001EFF1B /* brdb.h in Headers */,
-				C18AFB9A181DB868001EFF1B /* config.h in Headers */,
-				C18AFBAD181DB879001EFF1B /* endian.h in Headers */,
-				C18AFBB1181DB879001EFF1B /* xlstool.h in Headers */,
-				C18AFBB2181DB879001EFF1B /* xlstypes.h in Headers */,
-				C18AFBAE181DB879001EFF1B /* ole.h in Headers */,
-				C18AFBAB181DB879001EFF1B /* brdb.c.h in Headers */,
-				C18AFBB0181DB879001EFF1B /* xlsstruct.h in Headers */,
+				C18AFBE2181DCB8B001EFF1B /* endian.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C18AFBA0181DB870001EFF1B /* ole.c in Sources */,
-				C18AFB9F181DB870001EFF1B /* endian.c in Sources */,
+				C18AFBE9181DCB8B001EFF1B /* ole.c in Sources */,
+				C18AFBEA181DCB8B001EFF1B /* xls.c in Sources */,
+				C18AFBDD181DCB8B001EFF1B /* XlsReader.cpp in Sources */,
 				C18AFB8F181DB84B001EFF1B /* QZWorkbook.m in Sources */,
-				C18AFBA2181DB870001EFF1B /* xlstool.c in Sources */,
-				C18AFBA1181DB870001EFF1B /* xls.c in Sources */,
-				C18AFBB7181DB882001EFF1B /* XlsReader.cpp in Sources */,
+				C18AFBE8181DCB8B001EFF1B /* endian.c in Sources */,
 				C18AFB91181DB84B001EFF1B /* QZWorkSheet.m in Sources */,
 				C18AFB93181DB84B001EFF1B /* QZCell.m in Sources */,
+				C18AFBEB181DCB8B001EFF1B /* xlstool.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +434,7 @@
 				C18AFB86181DB83F001EFF1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
