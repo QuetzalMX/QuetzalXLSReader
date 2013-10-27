@@ -3,6 +3,8 @@ QuetzalXLSReader
 
 QZXLSReader is a library that makes it very easy to extract information from an XLS file. It is a very simple library that is based off libxls and DHlibXLS. It may not be as complete as either, but it can get the job done in a very simple manner.
 
+Note: I haven't tried it, but I believe it cannot open XLSX or XLSM files.
+
 How to use
 ----------
 
