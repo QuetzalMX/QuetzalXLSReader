@@ -69,10 +69,12 @@ I'm running into an error in QZCell.h. How do I fix that?
  
 Change:
 
-```- (id)initWithContent:(xlsCell *)cell;
+    - (id)initWithContent:(xlsCell *)cell;
 
 to
 
-```- (id)initWithContent:(struct xlsCell *)cell;
+    - (id)initWithContent:(struct xlsCell *)cell;
 
-- Long answer: I'm not sure what's going on, since the compiler complains only with a newly built library (and it doesn't complain while building). Once built, it complains that it doesn't know what an xlsCell is, so you have to define it (again) as a struct.
+- Long answer: 
+
+I'm not sure what's going on, since the compiler complains only with a newly built library (and it doesn't complain while building). Once built, it complains that it doesn't know what an xlsCell is, so you have to define it (again) as a struct.
