@@ -60,3 +60,19 @@ If you do make an app that uses it, let us know!
 Quetzal is dedicated to making great iOS apps, so if you like our code, feel free to contact us! We do consulting work as a third party or we can build the app of your dreams!
 
 Contact: olivaresf@quetzal.li
+
+FAQ
+---
+
+I'm running into an error in QZCell.h. How do I fix that?
+- Short answer:
+ 
+Change:
+
+````- (id)initWithContent:(xlsCell *)cell;
+
+to
+
+````- (id)initWithContent:(struct xlsCell *)cell;
+
+- Long answer: I'm not sure what's going on, since the compiler complains only with a newly built library (and it doesn't complain while building). Once built, it complains that it doesn't know what an xlsCell is, so you have to define it (again) as a struct.
