@@ -26,6 +26,6 @@ typedef enum {
 @property (nonatomic, assign, readonly) QZLocation location;
 @property (nonatomic, strong, readonly) id content;
 
-- (id)initWithContent:(xlsCell *)cell;
+- (id)initWithContent:(struct xlsCell *)cell;
 
 @end

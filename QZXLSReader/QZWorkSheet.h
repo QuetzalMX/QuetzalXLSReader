@@ -26,4 +26,6 @@ typedef struct QZLocation QZLocation;
 - (void)close;
 - (QZCell *)cellAtPoint:(QZLocation)location;
 
+- (NSArray *)arrayRepresentationOfSimpleWorkSheet;
+
 @end

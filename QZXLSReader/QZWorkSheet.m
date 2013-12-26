@@ -54,12 +54,12 @@
     //Get the rows and columns. Columns are easier because they depend on rows.
     NSMutableArray *rows = [NSMutableArray new];
     NSMutableArray *columns = nil;
-    for(NSInteger rowCounter = 0; rowCounter < _workSheet->rows.lastrow; rowCounter++){
+    for(NSInteger rowCounter = 0; rowCounter < _workSheet->rows.lastrow + 1; rowCounter++){
         
         //Get our raw row and parse all of its cells.
         xlsRow *row = &_workSheet->rows.row[rowCounter];
         NSMutableArray *cells = [NSMutableArray new];
-        for(NSInteger cellCounter = 0; cellCounter <= row->cells.count; cellCounter++){
+        for(NSInteger cellCounter = 0; cellCounter < row->cells.count; cellCounter++){
             xlsCell *cell = &row->cells.cell[cellCounter];
             QZCell *newCell = [[QZCell alloc] initWithContent:cell];
             
@@ -111,6 +111,36 @@
     xlsCell	*cell = &rowP->cells.cell[location.column];
 	
 	return [[QZCell alloc] initWithContent:cell];
+}
+
+- (NSArray *)arrayRepresentationOfSimpleWorkSheet;
+{
+    if(!self.isOpen || self.rows.count <= 0 || self.columns.count <= 0)
+        return nil;
+    
+    //Get the keys from the firstRow.
+    NSArray *firstRow = self.rows.firstObject;
+    NSMutableArray *arrayRepresentation = [NSMutableArray new];
+    
+    //Each row is a new object.
+    for(NSArray *row in self.rows){
+        if([row isEqual:firstRow])
+            continue;
+        
+        //Start parsing each object after the first row.
+        NSMutableDictionary *newObject = [NSMutableDictionary new];
+        NSEnumerator *firstRowEnumerator = [firstRow objectEnumerator];
+        for(QZCell *cell in row){
+            QZCell *nextObject = [firstRowEnumerator nextObject];
+            if(nextObject)
+                [newObject setObject:cell.content forKey:nextObject.content];
+        }
+        
+        if(newObject.allKeys.count > 0)
+            [arrayRepresentation addObject:newObject];
+    }
+    
+    return arrayRepresentation;
 }
 
 @end
