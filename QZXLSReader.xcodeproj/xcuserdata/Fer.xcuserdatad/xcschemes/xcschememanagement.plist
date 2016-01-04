@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>QZXLSFramework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>QZXLSModule.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>QZXLSReader.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +22,26 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C17387281C3A2C9800329D8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C17387581C3A326000329D8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C17387651C3A328200329D8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C17387741C3A33C900329D8A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C18AFB75181DB83F001EFF1B</key>
 		<dict>
 			<key>primary</key>

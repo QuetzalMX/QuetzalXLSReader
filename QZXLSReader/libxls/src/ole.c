@@ -47,9 +47,6 @@
 extern int xls_debug;
 
 //#define OLE_DEBUG 
-
-static const DWORD MSATSECT		= 0xFFFFFFFC;	// -4
-static const DWORD FATSECT		= 0xFFFFFFFD;	// -3
 static const DWORD ENDOFCHAIN	= 0xFFFFFFFE;	// -2
 static const DWORD FREESECT		= 0xFFFFFFFF;	// -1
 

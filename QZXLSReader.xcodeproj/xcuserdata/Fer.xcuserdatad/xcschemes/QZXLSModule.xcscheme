@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C18AFB75181DB83F001EFF1B"
-               BuildableName = "QZXLSReader.framework"
-               BlueprintName = "QZXLSReader"
+               BlueprintIdentifier = "C17387581C3A326000329D8A"
+               BuildableName = "QZXLSModule.framework"
+               BlueprintName = "QZXLSModule"
                ReferencedContainer = "container:QZXLSReader.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C18AFB75181DB83F001EFF1B"
-            BuildableName = "QZXLSReader.framework"
-            BlueprintName = "QZXLSReader"
+            BlueprintIdentifier = "C17387581C3A326000329D8A"
+            BuildableName = "QZXLSModule.framework"
+            BlueprintName = "QZXLSModule"
             ReferencedContainer = "container:QZXLSReader.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C17387581C3A326000329D8A"
+            BuildableName = "QZXLSModule.framework"
+            BlueprintName = "QZXLSModule"
+            ReferencedContainer = "container:QZXLSReader.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

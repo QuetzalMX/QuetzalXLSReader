@@ -36,12 +36,7 @@
 #include <sys/types.h>
 #include <wchar.h>
 #include <stdio.h>
-
-#ifdef HAVE_ICONV
-#include <iconv.h>
-#else
 #include <locale.h>
-#endif
 
 #include <stdlib.h>
 #include <errno.h>
@@ -244,90 +239,6 @@ BYTE *utf8_decode(BYTE *str, DWORD len, char *encoding)
 // Convert unicode string to to_enc encoding
 BYTE* unicode_decode(const BYTE *s, int len, size_t *newlen, const char* to_enc)
 {
-#ifdef HAVE_ICONV
-	// Do iconv conversion
-#ifdef AIX
-    const char *from_enc = "UTF-16le";
-#else
-    const char *from_enc = "UTF-16LE";
-#endif
-    BYTE* outbuf = 0;
-
-    if(s && len && from_enc && to_enc)
-    {
-        size_t outlenleft = len;
-        int outlen = len;
-        size_t inlenleft = len;
-        iconv_t ic = iconv_open(to_enc, from_enc);
-        BYTE* src_ptr = (BYTE*) s;
-        BYTE* out_ptr = 0;
-
-        if(ic == (iconv_t)-1)
-        {
-            // Something went wrong.
-            if (errno == EINVAL)
-            {
-                if (!strcmp(to_enc, "ASCII"))
-                {
-                    ic = iconv_open("UTF-8", from_enc);
-                    if(ic == (iconv_t)-1)
-                    {
-                        printf("conversion from '%s' to '%s' not available", from_enc, to_enc);
-                        return outbuf;
-                    }
-                }
-            }
-            else
-            {
-                printf ("iconv_open: error=%d", errno);
-                return outbuf;
-            }
-        }
-        size_t st; 
-        outbuf = (BYTE*)malloc(outlen + 1);
-
-		if(outbuf)
-        {
-            out_ptr = (BYTE*)outbuf;
-            while(inlenleft)
-            {
-                st = iconv(ic, (char **)&src_ptr, &inlenleft, (char **)&out_ptr,(size_t *) &outlenleft);
-                if(st == (size_t)(-1))
-                {
-                    if(errno == E2BIG)
-                    {
-                        size_t diff = out_ptr - outbuf;
-                        outlen += inlenleft;
-                        outlenleft += inlenleft;
-                        outbuf = (BYTE*)realloc(outbuf, outlen + 1);
-                        if(!outbuf)
-                        {
-                            break;
-                        }
-                        out_ptr = outbuf + diff;
-                    }
-                    else
-                    {
-                        free(outbuf), outbuf = NULL;
-                        break;
-                    }
-                }
-            }
-        }
-        iconv_close(ic);
-        outlen -= outlenleft;
-
-        if (newlen)
-        {
-            *newlen = outbuf ? outlen : 0;
-        }
-        if(outbuf)
-        {
-            outbuf[outlen] = 0;
-        }
-    }
-    return outbuf;
-#else
 	// Do wcstombs conversion
 	char *converted = NULL;
 	int count, count2, i;
@@ -366,7 +277,6 @@ BYTE* unicode_decode(const BYTE *s, int len, size_t *newlen, const char* to_enc)
 		if (newlen) *newlen = count2;
 		return converted;
 	}
-#endif
 }
 
 // Read and decode string
